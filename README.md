@@ -38,37 +38,37 @@ import LogAnalysis
 As of 04/12/2019 there are three reports provided by the LogAnalysis script. Descriptions
 of report below below:
 
-  -Get Popular Articles
+-Get Popular Articles
 
-    Retrive top 3 popular article by title & count (page visits) and exclude 404 errors.
-    Output formatted with title wrapped in double quotes.  Results are in descending order by count.
+Retrive top 3 popular article by title & count (page visits) and exclude 404 errors.
+Output formatted with title wrapped in double quotes.  Results are in descending order by count.
 
-    ```python
-    python LogAnalysis.py --getpopulararticles
-    ```
+```python
+python LogAnalysis.py --getpopulararticles
+```
 
 e.g. "Man Bites Dog...Again!" — 2839382 views
 
-  -Get Popular Authors
+-Get Popular Authors
 
-    Print authors ordered by article popularity (page visits) and exclude 404 errors.
+Print authors ordered by article popularity (page visits) and exclude 404 errors.
 
-    ```python
-    python LogAnalysis.py --getpopularauthors
-    ```
+```python
+python LogAnalysis.py --getpopularauthors
+```
 
-    e.g. Barry Johnson — 28192 views
+e.g. Barry Johnson — 28192 views
 
-  -Get Errors by Day
+-Get Errors by Day
 
-    Retrive all page requests where error percentage is greater than %1 on any given day.
-    Output date formatted as Month Day, Year and decimal output as percentage.
+Retrive all page requests where error percentage is greater than %1 on any given day.
+Output date formatted as Month Day, Year and decimal output as percentage.
 
-    ```python
-    python LogAnalysis.py --geterrorsbyday
-    ```
+```python
+python LogAnalysis.py --geterrorsbyday
+```
 
-    e.g. July 10, 2011 — 5.3% errors
+e.g. July 10, 2011 — 5.3% errors
 
 ## Supported versions
 
